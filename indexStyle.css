@@ -128,14 +128,15 @@ nav li:first-child{
         display: none;
     }
     .showOnMobile{
-        display: block;
+        display: inline;
         margin-right: auto;
         margin-left: -80vw;
     }
     #logo{
-        margin-top: -12vh;
-        margin-left: 10px;
+        position: fixed;
         scale: 0.2;
+        bottom: 86vh;
+        right: 70vw;
     }
     .bg-img{
         margin-top: 5vh;
@@ -155,7 +156,8 @@ nav li:first-child{
         width: 100%;
     }
     #logo{
-        scale: 0.15;
+        scale: 0.1;
+        display: none;
     }
     .bg-img{
         margin-top: 5vh;

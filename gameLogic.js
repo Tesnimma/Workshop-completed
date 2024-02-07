@@ -1,11 +1,11 @@
-name=prompt("Enter your name");
+let name=prompt("Enter your name");
 document.getElementById("greet").innerHTML="Welcome "+name+"!";
 
 
-    let y = Math.floor(Math.random() * 10 + 1);
+let y = Math.floor(Math.random() * 10 + 1);
 let guess = 1;
-const form = document.querySelector(".form");
-
+//const form = document.querySelector(".form");
+const form = document.getElementById("f1");
 form.addEventListener("submit", function (e) {
     e.preventDefault();
     let x = document.getElementById("guessField").value;
